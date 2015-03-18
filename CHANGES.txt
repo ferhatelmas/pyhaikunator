@@ -1,0 +1,13 @@
+Changelog for haikunator
+========================
+
+0.0.2
+-----
+
+  - Better packaging.
+
+
+0.0.1
+-----
+
+  - Initial implementation (port).

@@ -1,0 +1,7 @@
+*.pyc
+.tox/
+dist/
+*.egg-info
+*.egg
+build/
+.ropeproject/
