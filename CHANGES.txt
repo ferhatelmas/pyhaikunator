@@ -1,6 +1,11 @@
 Changelog for haikunator
 ========================
 
+0.0.3
+-----
+
+  - Fixed tests.
+
 0.0.2
 -----
 

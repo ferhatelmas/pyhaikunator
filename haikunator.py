@@ -1,5 +1,5 @@
 __author__ = 'ferhat elmas'
-__version__ = '0.0.2'
+__version__ = '0.0.3'
 
 from random import choice, randint
 
@@ -70,8 +70,13 @@ if __name__ == '__main__':
             )
 
         def test_wrong_range(self):
-            self.assertRaises(RuntimeError, Haikunator.haikunate('1'))
-            self.assertRaises(RuntimeError, Haikunator.haikunate(-1))
+            with self.assertRaises(RuntimeError):
+                Haikunator.haikunate('1')
+            with self.assertRaises(RuntimeError):
+                Haikunator.haikunate(-1)
 
         def test_wrong_delimiter(self):
-            self.assertRaises(RuntimeError, Haikunator.haikunate(delimiter=1))
+            with self.assertRaises(RuntimeError):
+                Haikunator.haikunate(delimiter=1)
+
+    unittest.main()
