@@ -1,5 +1,5 @@
 __author__ = 'ferhat elmas'
-__version__ = '0.0.3'
+__version__ = '0.0.4'
 
 from random import choice, randint
 

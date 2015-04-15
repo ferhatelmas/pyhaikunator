@@ -23,10 +23,9 @@ setup(name='pyhaikunator',
       version=haikunator.__version__,
       author='Ferhat Elmas',
       author_email='elmas.ferhat@gmail.com',
-      url='https://github.com/ferhatelmas.pyhaikunator',
+      url='https://github.com/ferhatelmas/pyhaikunator',
       py_modules=['haikunator'],
       license='MIT',
       description='Heroku like random name generator',
       long_description=haikunator_long_description,
-      classifiers=haikunator_classifiers
-)
+      classifiers=haikunator_classifiers)
